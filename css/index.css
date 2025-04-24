@@ -1,0 +1,47 @@
+@font-face {
+    font-family: PressStart2P;
+    src: url(PressStart2P.ttf);
+}
+
+body{
+    font-family: PressStart2P;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    justify-content: center;
+    margin: 2rem;
+    color: whitesmoke;
+}
+
+p{
+    font-size: small;
+    align-items: center;
+    margin: 2rem;
+    line-height: 2rem;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:floralwhite;
+    border: 2rem;
+    border-radius: .5rem;
+    border-color: red;
+    background-color: darkred;
+    justify-content: center;
+}
+
+li{
+    margin: 2rem;
+    line-height: 2rem;
+}
